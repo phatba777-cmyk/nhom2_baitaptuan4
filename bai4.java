@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -8,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Lê Hoàng Hải
  */
-public class Bai4 {
+public class bai4 {
 
     /**
      * @param args the command line arguments
@@ -18,10 +19,18 @@ public class Bai4 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap vao so nguyen n: ");
         int n = scanner.nextInt();
+
+
+
         int tong = 0;
         for (int i = 1; i <= n; i++) {
             tong += i;
         }
-        System.out.println("Tong cac chu so tu 1 den " + n + " la: " + tong);
+
+       
+
+        System.out.println("Tong cac so tu 1 den " + n + " la: " + tong);
     }
 }
+
+
